@@ -149,3 +149,30 @@ body {
 .email-link:hover {
     color: #ADD8E6; /* Color when hovering over the link */
 }
+
+/* Logo Tag Styling */
+.logo-tag {
+    display: flex;
+    align-items: center; /* Center aligns the text and icon vertically */
+    font-family: 'Poppins', sans-serif; /* Use any font you like */
+    font-size: 3rem;
+    font-weight: 300;
+    color: #e0e0e0;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Icon Styling */
+.logo-icon {
+    width: 1em; /* Sets icon size relative to font-size for automatic scaling */
+    height: 1em; /* Ensures a square aspect ratio */
+    margin-left: 12px; /* Adds space between text and icon */
+    transform: translateY(0.09em);
+}
+/* Optional: Add hover effect */
+.logo-tag:hover {
+    color: #007BFF; /* Change color on hover */
+}
