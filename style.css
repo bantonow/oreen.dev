@@ -6,20 +6,38 @@
     font-family: 'Arial', sans-serif;
 }
 
+/* Center the logo container */
+.logo-container {
+    margin-top: 20px;
+    margin-bottom: 20px; /* Adjust for space between logo and hero section */
+}
+
+/* Logo styling */
+.logo {
+    width: 200px;
+    height: auto;
+}
 body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
     background: #121212;
     color: #e0e0e0;
 }
 
 .container {
-    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+    padding: 10px;
 }
+
 
 .hero h1 {
     font-size: 2.5rem;
@@ -107,7 +125,7 @@ body {
 .footer {
     margin-top: 50px;
     font-size: 0.9rem;
-    color: #616161;
+    color: #9e9e9e;
 }
 
 .social-links a {
@@ -117,5 +135,16 @@ body {
 }
 
 .social-links a:hover {
-    color: #0056b3;
+    color: #ADD8E6;
+}
+/* Specific styling for the email link */
+
+.email-link {
+    color: #00ffcc; /* Change this to any color you prefer */
+    text-decoration: none; /* Removes underline */
+    transition: color 0.3s; /* Adds a smooth color transition */
+}
+
+.email-link:hover {
+    color: #ADD8E6; /* Color when hovering over the link */
 }
