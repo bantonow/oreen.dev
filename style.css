@@ -60,12 +60,13 @@ body {
     font-weight: bold;
     border-radius: 5px;
     transition: background 0.3s ease;
+    border: none; /* Removes default button border */
+    cursor: pointer; /* Changes cursor to pointer on hover */
 }
 
 .cta-button:hover {
     background: #0056b3;
 }
-
 .features {
     display: flex;
     flex-direction: column;
