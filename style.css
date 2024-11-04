@@ -172,7 +172,3 @@ body {
     margin-left: 12px; /* Adds space between text and icon */
     transform: translateY(0.09em);
 }
-/* Optional: Add hover effect */
-.logo-tag:hover {
-    color: #007BFF; /* Change color on hover */
-}
