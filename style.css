@@ -124,9 +124,10 @@ body {
 }
 
 .footer {
-    margin-top: 50px;
+    margin-top: 100px;
     font-size: 0.9rem;
     color: #9e9e9e;
+    line-height: 1.3;
 }
 
 .social-links a {
@@ -141,7 +142,7 @@ body {
 /* Specific styling for the email link */
 
 .email-link {
-    color: #00ffcc; /* Change this to any color you prefer */
+    color: #007BFF; /* Change this to any color you prefer */
     text-decoration: none; /* Removes underline */
     transition: color 0.3s; /* Adds a smooth color transition */
 }
